@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment variables (keep secrets safe)
+.env
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Build output
+frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Junk asset folders
+frontend/src/assets/doctor images - Search Images_files/
+
+# OS files
+.DS_Store
+Thumbs.db
